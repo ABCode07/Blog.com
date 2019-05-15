@@ -1,0 +1,82 @@
+html,body{
+margin: 0;
+padding: 0;
+}
+
+header{
+height: fit-content;
+width: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+}
+header>h2{
+text-align: center;
+color: #2196f3;
+font-family: Calibri;
+font-size: 30px;
+margin-top: 10vh;
+}
+header>article{
+height: fit-content;
+width: 80%;
+display: block;
+margin: -10px auto 0;
+color: #9a9a9a;
+font-size: 18px;
+font-family: Calibri;
+text-align: center;
+}
+
+section{
+height: 60vh;
+width: 80%;
+display: block;
+margin: 30vh auto 0;
+}
+section>div{
+height: 100%;
+width: 30%;
+display: block;
+float: left;
+margin-left: 2%;
+margin-top: 2vh;
+border: 1px solid #2196f3;
+box-shadow: 0 0 10px #2196f3;
+}
+section>div:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+section>div>img{
+height: 70%;
+width: 100%;
+display: block;
+margin: 0;
+padding: 0;
+}
+section>div>h3{
+text-align: center;
+color: #ccc;
+font-size: 20px;
+font-family: Calibri;
+margin-top: 20px;
+}
+section>div>button{
+height: 40px;
+width: 90px;
+display: block;
+margin: -10px auto 0;
+background: #2196f3;
+color: #fff;
+font-family: Calibri;
+border: 0 solid transparent;
+}
+section>div>button:hover{
+background: #fff;
+color: #2196f3;
+border: 1px solid #2196f3;
+cursor: pointer;
+}
